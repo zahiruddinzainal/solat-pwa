@@ -1,0 +1,25 @@
+{
+   "zone":"SGR01",
+   "start":"19-10-2020",
+   "end":"19-10-2020",
+   "locations":[
+      "Gombak",
+      "Hulu Selangor",
+      "Rawang",
+      "Hulu Langat",
+      "Sepang",
+      "Petaling",
+      "Shah Alam"
+   ],
+   "prayer_times":{
+      "date":"19-10-2020",
+      "datestamp":1603036800,
+      "imsak":"5:39 am",
+      "subuh":"5:49 am",
+      "syuruk":"6:55 am",
+      "zohor":"1:01 pm",
+      "asar":"4:18 pm",
+      "maghrib":"7:01 pm",
+      "isyak":"8:10 pm"
+   }
+}

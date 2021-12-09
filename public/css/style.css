@@ -1,0 +1,142 @@
+/*
+  Theme Name: DevFolio
+  Theme URL: https://bootstrapmade.com/devfolio-bootstrap-portfolio-html-template/
+  Author: BootstrapMade.com
+  License: https://bootstrapmade.com/license/
+*/
+
+/*======================================
+//--//-->   STYLES GENERALES
+======================================*/
+
+body {
+    background-color: #141414;
+    color: #141414;
+  
+  }
+  
+  * {
+    scrollbar-width: thin;
+    scrollbar-color: #bf2cb5 #1e1e1e;
+  }
+  
+  /* Works on Chrome/Edge/Safari */
+  *::-webkit-scrollbar {
+    width: 12px;
+  }
+  *::-webkit-scrollbar-track {
+    background: #1e1e1e;
+  }
+  *::-webkit-scrollbar-thumb {
+    background-color: #bf2cb5;
+    border-radius: 20px;
+    border: 3px solid #1e1e1e;
+  }
+  
+  
+  .bg-image {
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+  }
+  
+  .overlay-mf {
+    background-color: #000000;
+  }
+  
+  .overlay-mf {
+    position: absolute;
+    top: 0;
+    left: 0px;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0.7;
+  }
+  
+  .paralax-mf {
+    position: relative;
+    padding: 8rem 0;
+  }
+  
+  
+  
+  .footer-paralax {
+    padding: 4rem 0 0 0;
+  }
+  
+  .contact-mf {
+    margin-top: 4rem;
+  }
+  
+  video {
+    object-fit: cover;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+  }
+  .viewport-header {
+    position: relative;
+    height: 100vh;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .paralax-mf {
+    padding: 2rem 0;
+  }
+  
+  @media (min-width: 992px) {
+    .testimonial-box .description {
+      padding: 0 8rem;
+    }
+  }
+  
+  @media (min-width: 1200px) {
+    .testimonial-box .description {
+      padding: 0 13rem;
+    }
+  }
+  
+  @media (max-width: 1024px) {
+    .bg-image {
+      background-attachment: scroll;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .back-to-top {
+      bottom: 15px;
+    }
+    video {
+      height: 50vh;
+    }
+    .viewport-header {
+      height: 40vh;
+      margin-top: 10vh;
+    }
+  }
+  
+  /* glitch elem must have absolute position */
+  .glitch-img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-position: center;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -webkit-background-size: cover;
+    background-size: cover;
+    opacity: 1;
+  }
+  
+
+  
+  
